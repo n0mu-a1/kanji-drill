@@ -1,0 +1,15 @@
+{
+  "name": "かん字ドリル｜小学生の漢字れんしゅう",
+  "short_name": "かん字ドリル",
+  "description": "小学1年〜6年の教育漢字を、読み・熟語・例文の4択クイズで楽しく練習。",
+  "lang": "ja",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff7ec",
+  "theme_color": "#ff7a59",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

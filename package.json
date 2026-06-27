@@ -1,0 +1,16 @@
+{
+  "name": "kanji-drill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "かん字ドリル — 教育漢字1013字の4択クイズ（静的PWA）＋画像つき不具合報告の収集",
+  "scripts": {
+    "serve": "python3 -m http.server 8765"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.27.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
