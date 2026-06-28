@@ -60,6 +60,7 @@ jobs:
           # github_token を明示し OIDC 交換(id-token:write/GitHub App)を不要にする。
           # GitHub 操作(ブランチ/PR)は後段の shell ステップで自前処理する。
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          show_full_output: true
           claude_args: |
             --max-turns 30
             --allowedTools Edit,Read,Write,Glob,Grep
